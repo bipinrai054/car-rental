@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  margin-top: 4em;
+  margin-left: 9em;
+}
+h2 {
+  padding: 0 0 8px 8px;
+}
+.MuiFormControl-root {
+  width: 30em;
+}
+
+.button {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.btn {
+  height: 50px;
+  width: 192px;
+  /* font-size: 3em; */
+  color: white;
+  background-color: black;
+  border: hidden;
+  cursor: pointer;
+  margin: 1em 0 0 0.5em;
+  font-size: 1.5em;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  border: solid;
+  border-width: thin;
+}
+.checkbox p {
+  margin-left: 10px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 1em 0 1em 0.5em;
+}
+p a {
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    margin-left: 0px;
+  }
+}
+.first {
+  background-color: red;
+  height: 70px;
+  width: 80px;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+.second {
+  background-color: green;
+  height: 70px;
+  width: 80px;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+.third {
+  background-color: blue;
+  height: 70px;
+  width: 80px;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}

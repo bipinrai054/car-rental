@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  height: 20em;
+  width: 20em;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 1em 0 1em 2em;
+}
+.card_header {
+  margin: 0.1em 0 1em 1.2em;
+}
+
+.buttons {
+  display: flex;
+  width: auto;
+  margin: 2em 0.1em 1em 0.1em;
+}
+.heading {
+  text-align: center;
+  font-size: 2em;
+}
+.btn {
+  margin: 0 0 0 0.7em;
+  height: 50px;
+  width: 192px;
+  color: white;
+  background-color: black;
+  border: hidden;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  border: solid;
+  border-width: thin;
+}
+.filter {
+  margin: 0 0 0 0.7em;
+  height: 50px;
+  width: 192px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+  border: solid;
+  border-width: thin;
+}
+.filter:hover {
+  color: white;
+  background-color: black;
+  border: hidden;
+  cursor: pointer;
+}
